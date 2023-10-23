@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+#produto img,
+#sobre-a-loja img,
+#produtos img,
+#nosso-espaco img {
+    border-radius: 2%;
+}
+
+header {
+    background-color: #bd6b73;
+    color: white;
+    font-family: 'Young Serif', serif;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: #bd6b73;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+#sobre-a-loja {
+    padding: 50px;
+    background-color: #bd6b734d;
+}
+
+#sobre-a-loja img,
+#nosso-espaco img {
+    width: 100%;
+}
+
+#sobre-a-loja h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 1.6em;
+    text-decoration: underline #bd6b73;
+}
+
+#nosso-espaco {
+    text-align: center;
+}
+
+#nosso-espaco h2,
+#produtos h2,
+#fale-conosco h2 {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Young Serif', serif;
+    font-size: 2em;
+    text-decoration: underline #bd6b73;
+}
+
+#produtos {
+    text-align: center;
+    background-color: #bd6b734d;
+}
+
+#produtos img {
+    width: 208px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+button.nav-link {
+    margin: 3px;
+    background-color: white;
+    color: #bd6b73;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #bd6b73;
+}
+
+#nosso-espaco h3,
+#produtos h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Young Serif', serif;
+    font-size: 1.3em;
+    color: #9e5c62;
+}
+
+#fale-conosco form {
+    color: #bd6b73;
+    padding-right: 10px;
+}
+
+#fale-conosco button {
+    background-color: #bd6b73;
+    color: white;
+}
+
+.section-title {
+    text-align: start;
+    color: #bd6b73;
+}
+
+.social-links li {
+    display: inline;
+    list-style: none;
+}
+
+.social-links a {
+    color: #bd6b73;
+    text-decoration: none;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: #bd6b73;
+}
+
+#sobre-a-loja,
+#nosso-espaco,
+#produtos,
+#fale-conosco {
+    padding-top: 80px;
+}
